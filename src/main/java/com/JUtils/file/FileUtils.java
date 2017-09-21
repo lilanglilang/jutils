@@ -110,6 +110,7 @@ public class FileUtils {
 		} else {
 			file.createNewFile();
 		}
+	        fis.closse();//关闭文件流
 		return size;
 	}
 	
